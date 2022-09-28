@@ -1,3 +1,66 @@
-<div>
-  <hi>Hi there!</hi>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Clicker thingy lol">
+    <link rel="shortcut icon" href="https://cdn.glitch.global/b5bec18b-8784-436e-bcfd-63a1213ee768/favicon.ico?v=1656117477839" type="image/x-icon"/>
+    <title>Omega Clickers</title>
+</head>
+<body>
+    <h1>Omega Clickers</h1>
+      <div id="scoretop">
+        <p class="score"><span>You have</span><span  id="alpha">0</span><span>Alpha</span><br></p>
+        <div class="aps"><span id="aps">0</span> Alpha/s<br></div>
+        <div class="addalpha" id="clicker"><img src="https://cdn.glitch.global/866c4287-dbb9-40bb-81d8-737652882677/alpha.png?v=1658116425102"></div>
+     </div> 
+      <div class="tabs">
+        <div id="tab1">Main</div>
+        <div id="tab2">Store</div>
+        <div id="tab3">Upgrades</div>
+        <div id="tab4">Achievements</div>
+       </div>
+  <div class="store-2">
+    <div id="upgradesContainer">
+    </div>
+  </div>
+    <div id="achievementContainer"></div>
+  <div class="store">
+    <div id="storeContainer">
+    </div>
+  </div>
+  <div class="settingbutton"><img src="https://cdn.glitch.global/866c4287-dbb9-40bb-81d8-737652882677/setting_button-removebg-preview.png?v=1660702745309" style="width: 2.2em; height: 2.2em; margin: none;"></div>
+  <div class="backdrop"></div>
+  <div class="settings">
+  <div class="settings-display">
+    <a href="./changelog" class="changelog">Changelog</a><br><br>
+  <button onclick="saveGame()">Save Game</button><br><br>
+  <button class="reset" onclick="resetgame()">RESET GAME</button><br><br>
+    <div id="exit">close</div>
+    <form class="mousetrail">Mouse Trail<input type="checkbox" id="mousetrail"></form><br>
+    <div class="dropdown">
+  <div class="dropbtn">Background color</div>
+  <div class="dropdown-content">
+    <a onclick="changecolor('black')">Black</a>
+    <a onclick="changecolor('white')">White</a>
+    <a onclick="changecolor('green')">Green</a>
+    <a onclick="changecolor('yellow')">Yellow</a>
+    <a onclick="changecolor('gray')">Gray</a>
+    <a onclick="changecolor('lightgray')">Lightgray</a>
+    <a onclick="changecolor('darkgray')">Darkgray</a>
+    <a onclick="changecolor('blue')">Blue</a>
+    <a onclick="changecolor('darkblue')">Darkblue</a>
+    <a onclick="changecolor('midnightblue')">Midnightblue</a>
+    <a onclick="changecolor('indigo')">Indigo</a>
+    <a onclick="changecolor('purple')">Purple</a>
+    <a onclick="changecolor('#696969')">(sus)</a>
+  </div>
+</div>    
 </div>
+</div>
+<script src="/script.js"></script>
+<script src="/styles.js"></script>
+<!-- By Richard0820#2652 -->
+</body>
+</html>
